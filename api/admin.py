@@ -1,3 +1,6 @@
 from django.contrib import admin
+from api.models import  Category, Women
 
-# Register your models here.
+
+admin.site.register(Women)
+admin.site.register(Category)
